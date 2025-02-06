@@ -1,0 +1,56 @@
+import random
+
+def band_of_the_day():
+    bands = [
+        "Dream Theater",
+        "Iron Maiden",
+        "Avantasia",
+        "Motorhead",
+        "Judas Priest",
+        "Green Day",
+        "Blink 182",
+        "Delux",
+        "The Warning",
+        "División Minúscula",
+        "Chingadazo de Kung Fu",
+        "Masappan",
+        "Tolidos",
+        "Edguy",
+        "Helloween",
+        "Megadeth",
+        "Say Ocean",
+        "Neck Deep",
+        "Metallica",
+        "La la love you",
+        "Lost Acapulco",
+        "Black Sabbath",
+        "Led Zeppelin",
+        "Def Leppard", 
+        "Lamb of God",
+        "Opeth",
+        "Mr. Big",
+        "Airbourne",
+        "Dua Lipa",
+        "Panda", 
+        "Canseco",
+        "Exodus",
+        "Kreator",
+        "Nodal", 
+        "Deep Purple",
+        "Don Tetto",
+        "Gojira",
+        "John Petrucci",
+        "Joe Satriani",
+        "Steve Vai",
+        "Morat", 
+        "NOFX", 
+        "Pantera", 
+        "Rata Blanca",
+        "La Renga",
+        "Saxon",         
+    ]
+
+    return random.choice(bands)
+
+if __name__ == '__main__':
+    print("La banda del día es:", band_of_the_day())
